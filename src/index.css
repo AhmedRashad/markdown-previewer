@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  h1 {
+    @apply text-4xl font-semibold leading-normal text-neutral-800;
+  }
+  h2 {
+    @apply text-2xl font-semibold text-neutral-800;
+  }
+  h3 {
+    @apply text-lg font-semibold text-neutral-800;
+  }
+  p {
+    @apply block text-base font-normal text-neutral-800;
+  }
+  ul {
+    @apply list-disc pl-10 text-neutral-800;
+  }
+  ol {
+    @apply list-decimal	pl-10 text-neutral-800;
+  }
+}
